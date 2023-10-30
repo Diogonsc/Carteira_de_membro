@@ -1,0 +1,35 @@
+
+.textAreaBase{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid var(--white-300);
+    resize: none;
+}
+
+.textAreaBase:focus{
+    outline: none;
+
+    border: 1px solid var(--orange-100);
+}
+
+.textAreaBase::placeholder {
+    color: var( --background-delphi);
+}
+
+.errors {
+    width: 100%;
+    
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid var(--color-error);
+}
+
+.errors:focus{
+    outline: none;
+    background-color: var(--white-300);
+}
+
+.errorMessage {
+    color: var(--color-error)
+}

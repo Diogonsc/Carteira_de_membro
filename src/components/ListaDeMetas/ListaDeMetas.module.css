@@ -1,0 +1,21 @@
+
+.container {
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    /* height: 56px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 1.5rem;
+
+    border-bottom: 1px solid var(--white-300);
+}
+
+.list:hover {
+    background-color: var(--white-300);
+}

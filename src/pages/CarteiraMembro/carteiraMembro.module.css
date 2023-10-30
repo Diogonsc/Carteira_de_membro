@@ -1,0 +1,158 @@
+
+
+.containerBox {
+  width: 100%;
+  }
+  
+  .linkPath:hover {
+    color: var(--white-100);
+    background-color: var(--orange-100);
+  }
+  
+  .content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 0.4rem;
+    background-color: var(--white-100);
+  }
+  
+.carteiraMolde {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  border: 15px solid var(--blue-100);
+}
+
+.box1 {
+  flex: 1;
+  height: 280px;
+  border-right: 7.5px solid var(--blue-100);
+}
+
+.dadosCadab {
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 0 0.6rem;
+}
+
+.dadosCadab p {
+  font-size: 1.38rem;
+  color: var(--blue-100);
+  font-weight: bold;
+}
+
+.dadosCadab hr {
+  width: 100%;
+  background-color: var(--blue-100);
+}
+
+.dadosCadab span {
+  font-size: 0.63rem;
+  font-weight: 600;
+  color: var(--blue-100);
+}
+
+.numeroCartaoMembro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1px solid var(--blue-100);
+
+}
+
+.numeroCartaoMembro p {
+  font-size: 1rem;
+  color: var(--white-100);
+  background-color: var(--blue-100);
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 0.6rem;
+}
+
+.numeroCartaoMembro span {
+  flex: 1;
+  padding: 0 0.6rem;
+}
+
+.dadosPessoais {
+  padding: 0.5rem 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.inputdadosPessoais {
+  width: 100%;
+}
+
+.contentPessoais {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.contentPessoaisbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.imagem {
+  width: 120px;
+  height: 130px;
+  border: 1px solid var(--blue-100);
+  border-radius: 0.2rem;
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+  object-fit: cover;
+}
+
+.inputNascEstado {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.box2 {
+  flex: 1;
+  height: 280px;
+  border-left: 7.5px solid var(--blue-100);
+}
+
+.dadosPessoaisBox2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.6rem;
+}
+
+.dadosFlex {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.table {
+  border-top: 1px solid var(--blue-100);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.cell {
+  border-bottom: 1px solid var(--blue-100);
+  border-right: 1px solid var(--blue-100);
+  border-left: 1px solid var(--blue-100);
+  padding: 6px;
+  text-align: center; 
+}

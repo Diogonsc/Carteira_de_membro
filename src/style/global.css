@@ -1,0 +1,210 @@
+:root {
+  font-size: 62, 5%;
+
+  --white-100: #ffffff;
+  --white-200: #f5f5f5;
+  --white-300: #e5e5e5;
+
+  --background: #f2efeb;
+  --background-light: #f1f1f1;
+  --background-delphi: #D5D5D5;
+
+  --black-100: #000000;
+  --black-200: #333333;
+  --black-300: #666666;
+
+  --blue-100: #043b72;
+  --blue-200: #0a558c;
+  --blue-300: #0f609b;
+
+  --red-100: #d00000;
+  --red-200: #e64d4d;
+  --red-300: #f26666;
+  --red-400: #fa8080;
+
+  --orange-100: #FF7D05;
+  --orange-200: #FF9F1C;
+  --orange-300: #FFB84D;
+  --orange-400: #FFCC70;
+  --orange-500: #FFDD91;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--white-100);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-100);
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  padding: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10px;
+  width: 10px;
+  padding: 0 3px;
+  background: #888;
+  border-radius: 4px;
+
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+
+  padding: 0 3px;
+  background-clip: padding-box;
+}
+
+
+/* React Select */
+.css-13cymwt-control {
+  height: 48px;
+
+  border-radius: 4rem;
+  border-color: var(--white-300) !important;
+  padding: 0.4rem 0.75rem;
+
+  outline: none;
+  border: 0;
+  border-radius: 0.4rem !important;
+}
+
+.css-t3ipsp-control {
+  height: 48px;
+
+  border-radius: 4rem;
+  border-color: var(--orange-100) !important;
+  box-shadow: none !important;
+  padding: 0.4rem 0.75rem;
+
+  outline: none;
+  border: 0;
+}
+
+/* React Select */
+
+/* Date Picker*/
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif !important;
+  border-radius: 0.4rem;
+  padding-right: 14px;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 1rem !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: var(--white-300) !important;
+  border-radius: 0.4rem !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: var(--orange-100) !important;
+  border-width: 0.1rem !important;
+}
+
+/* Date Picker*/
+
+
+/* Modal */
+.popup-overlay {
+  background-color: #00000094;
+}
+
+
+.css-1m5i5w0-MuiButtonBase-root-MuiListItemButton-root {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif !important;
+  /* background-color: var(--orange-100) !important;  */
+}
+
+.css-uxa1ks-MuiListItem-root:hover {
+  background-color: var(--orange-100) !important;
+  color: var(--white-100);
+}
+
+.css-uxa1ks-MuiListItem-root:active {
+  background-color: var(--orange-100) !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root  {
+  padding: 0 !important;
+  display: block;
+  position: relative;
+  left: 20px;
+  top: -10px;
+  z-index: 9999 !important;
+
+  background-color: var(--white-300);
+}
+
+/*Drawer*/
+/* .css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #edf2fb;
+} */
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  display: block;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  z-index: 9999 !important;
+}
+
+/* Input Dados carteirinha */
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 2px !important;
+  border: 1px solid var(--blue-100) !important;
+  border-radius: 0.2rem !important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  background-color: var(--white-100) !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  color: var(--blue-100) !important;
+  margin-top: 0.2rem;
+  font-weight: bold !important;
+}
+
+@media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    padding: 5px;
+  }
+}

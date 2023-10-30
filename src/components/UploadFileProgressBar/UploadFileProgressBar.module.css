@@ -1,0 +1,142 @@
+
+.uploadBox {
+    width: 100%;
+    max-height: 80vh;
+    background-color: var(--white);
+
+    overflow: hidden;
+}
+
+.uploadBox > p{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.uploadBox form {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 20px 0 10px 0;
+
+    border-radius: 4px;
+    border: 2px dashed var(--orange-100);
+
+    cursor: pointer;
+
+    overflow: auto;
+}
+
+.uploadBox form:where(svg,p) {
+    color: var(--orange-100);
+}
+
+.uploadBox form svg {
+    font-size: 100px;
+    color: var(--orange-100);
+
+}
+
+.uploadBox form p {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+}
+
+.icon svg {
+    width: 100%;
+    color: var(--orange-100);
+}
+
+.loadingArea .row .content {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.loadingArea .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 7px;
+}
+
+.loadingArea .content .loadingBar {
+    height: 6px;
+    width: 100%;
+    margin-bottom: 4px;
+    background-color: var(--white);
+
+    border-radius: 30px;
+}
+
+.uploadBox .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--orange-200);
+
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border-radius: 4px;
+
+    list-style: none;
+}
+
+.uploadBox .row svg {
+    color: var(--orange-100);
+    font-size: 30px;
+}
+
+
+.content .loadingBar .loading {
+    width: 10px;
+    height: 100%;
+    background-color: var(--orange-100);
+    border-radius: inherit;
+}
+
+.uploadBox .details span {
+    font-size: 12px;
+}
+
+.uploadArea {
+    overflow: auto;
+}
+
+.uploadArea.onprogress {
+    max-height: 150px;
+}
+
+.uploadArea::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}
+
+.uploadArea .row .content {
+    display: flex;
+    align-items: center;
+}
+
+.uploadArea .row .details {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.uploadArea .contentUpload {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex: 1;
+}

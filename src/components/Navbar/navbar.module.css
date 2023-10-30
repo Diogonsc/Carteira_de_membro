@@ -1,0 +1,74 @@
+.container {
+  height: 100vh;
+  display: flex;
+  padding: 1rem;
+  background-color: var(--white-300) !important;
+}
+
+.containerBox {
+width: 100%;
+}
+
+.usuarioLogado {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 0.5rem;
+  margin: 0 0 0 0.7rem;
+
+  background-color: var(--white-300);
+  border-radius: 0.4rem;
+}
+
+.usuarioLogado p {
+  font-size: 0.9rem;
+  color: var(--black-200);
+}
+
+.usuarioLogado span {
+  font-size: 0.7rem;
+  color: var(--black-300);
+}
+
+.nome {
+  margin: 0.5rem;
+}
+
+.logout {
+  cursor: pointer
+}
+
+.linkPath:hover {
+  color: var(--white-100);
+  background-color: var(--orange-100);
+}
+
+.content {
+  width: 100%;
+  height: 90%;
+  display: flex;
+
+  border-radius: 0.4rem;
+  background-color: var(--white-100);
+}
+
+.box1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  max-width: 500px;
+  height: 85vh;
+  overflow: auto;
+}
+
+.box2::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--white-300);
+}

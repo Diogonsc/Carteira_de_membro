@@ -1,0 +1,115 @@
+
+.container {
+    max-width: 31.56rem;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 1.5rem 0;
+
+    border-left: 1px solid var(--white-300);
+}
+
+.container form {
+    max-width: 100%;
+    height: 100%;
+
+    padding: 1rem 1.5rem 0 1.5rem;
+
+    overflow: auto;
+}
+
+.container form::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}
+
+.container form h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input  {
+    margin-top: 1rem;
+    flex: 1;
+}
+
+.btnForm {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+
+    margin: 1rem 0;
+}
+
+.btnDeleteIcon {
+    width: 40px;
+    height: 48px;
+
+    border: 1px solid var(--color-erro);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+
+.btnDeleteIcon svg {
+    color:  var(--color-erro);
+    margin-left: 4px;
+}
+
+
+.containerFormFaixas {
+    border: 0.1rem solid var(--white-300);
+    border-radius: 4px;
+
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+.inputFormFaixas {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.inputCheck {
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.containerFormFaixas p {
+    margin: 1rem 0;
+    line-height: 24px;
+    font-size: 0.99rem;
+}
+
+.inputDateContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.inputDateContainerValidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.inputDateContainerValidade .inputCheck {
+    margin-top: 40px;
+}
